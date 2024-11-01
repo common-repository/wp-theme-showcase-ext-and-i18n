@@ -1,0 +1,252 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+	<title>Readme Validator Results</title>
+</head>
+<style type="text/css">
+<!--
+body {
+font-family: Lucida Grande, Verdana, sans-serif;
+}
+
+code {
+font-size: 1.3em
+}
+
+div.success {
+background: #0f0;
+width: 50%;
+margin: 0 auto;
+padding: 1px 10px;
+border: 3px solid #0d0;
+}
+
+div.error {
+padding: 1px 10px;
+margin: 30px auto;
+}
+
+div.error p {
+font-weight: bold;
+}
+
+div.error ul {
+list-style: square;
+}
+
+div.fatal {
+background: #faa;
+border: 3px solid #d00;
+}
+
+div.warning {
+background: #f60;
+border: 3px solid #e40;
+}
+
+div.note {
+background: #5cf;
+border: 3px solid #3ad;
+}
+
+-->
+</style>
+<body>
+
+	<h1>Plugin Name</h1>
+
+	<p><em>WP Theme Showcase ext and i18n displays themes and info from their style.css with one or two indices. Lots of features and options and a widget.</em></p>
+
+	<hr />
+
+	<p>
+	<strong>Contributors:</strong> GeorgWP<br />
+
+	<strong>Donate link:</strong> http://<br />
+	<strong>Tags:</strong> showcase, theme gallery, theme preview, preview, demo<br />
+	<strong>Requires at least:</strong> 2.9<br />
+	<strong>Tested up to:</strong> 2.9.2<br />
+
+	<strong>Stable tag:</strong> 2.5.3	</p>
+
+	<hr />
+
+		<h3>Description</h3>
+	<p><em>WP Theme Showcase ext and i18n</em> (<em>Showcase ext</em> for short) displays a thumbnail index and/or a name index and then an image, a screenshot, of each theme together with information from the style.css file and user-defined files. A theme showcase with a wealth of features and &ndash; illustrated &ndash; options, <em>Showcase ext</em> was originally based on Brad Williams' <a href="http://wordpress.org/extend/plugins/wordpress-theme-showcase-plugin">WordPress Theme Showcase Plugin</a>. Enter <strong>[showcaseext]</strong> in a post or page to display WP Theme Showcase ext and i18n. Localization support.</p>
+
+<p><em>Showcase ext</em> has a widget that displays a theme thumbnail and a link to the showcase proper, if <em>Showcase ext</em> and the widget are set up with the necessary features and options. You can customize the text and update frequency for the widget in the widget control. <em>Showcase ext</em> comes fully prepared for CSS customization.</p>
+
+<p><em>Showcase ext</em> is able to display WP themes using the standard screenshot.png files and the information contained within the style.css files. However, <em>Showcase ext</em> is especially useful for displaying localized and/or translated themes (this is how I use it myself). Out of the box, it assumes that you have created your own screenshots in three different sizes. You can configure the filenames (incl. the extensions) to your liking, however.</p>
+
+<p>This readme presupposes the default configuration, but almost everything can be changed by admin (see below).</p>
+
+<p><em>Showcase ext</em> is able to display one or two indices (two different Table of Contents). One displays thumbnails, the other lists the theme names as links.</p>
+
+<p>The thumbnail index displays table with thumbnails that are linked to the presentation of each theme in the showcase proper. The showcase proper displays all &ndash; or selected &ndash; themes located in wp-content/themes with the standard or with a user-defined picture with links to an even larger theme image. If no screenshots are present, a placeholder will be shown. It also displays a number of entries from the style.css file or from user-defined files (see below). In addition, <em>Showcase ext</em> is able to add links to additional screenshots and readme files, if they exist. You must enter the filenames that you want <em>Showcase ext</em> to look for (the activation routine adds five readme filenames, if no <em>Showcase ext</em> options (version 2.5+) are present in your WordPress database).</p>
+
+<p><em>Almost everything</em> can be changed, either in the settings, which change the HTML produced by the script, or by modifying the CSS file used by the plugin. It is even possible to replace the descriptions of the themes and add separate download instructions and links from user-defined text files. UTF-8 is recommended. Options also include user-defined theme image filenames.</p>
+
+<p><em>Showcase ext</em> stores a number of default options in the WordPress database when activated first time. <em>Showcase ext</em> includes functions to reset or delete its options upon deactivation.</p>
+
+<p>It is possible to get an extensive debug-report with variables, arrays, filenames etc., which makes it easier to pinpoint why a given file is not found (or where a bug may have hidden itself).</p>
+
+<p>Localization is supported. You are welcome to translate the plugin. :-)</p>	<hr />
+		<h3>Installation</h3>
+	<ol>
+<li>Upload 'wp-theme-showcase-ext-and-i18n' folder to '/wp-content/plugins/' directory</li>
+<li>Activate the plugin through the 'Plugins' menu in WordPress. The plugin creates the necessary default options, but be sure to enter all necessary information for the features you activate. Go to the plugin options and choose Hide themes, if you need to hide one or more themes.</li>
+<li>Enter [showcaseext] in a page or post where you want to display the showcase. You can, of course, add your own text, e.g., an introduction before and/or after the shortcode.</li>
+<li>Configure the plugin via the Appearance/Theme submenu and unleash its full power. You can change the appearance of the name and/or thumbnail index and customize some user instructions. Many other options are available.</li>
+<li>Edit the showcaseext.css file if you want to change the appearance of the output.</li>
+
+<li>If you want to display your own theme descriptions (e.g., because you have translated those included in the style.css of each theme and saved your translations separately), then you must create a directory for these files under wp-content and name it as specified in the Options.</li>
+<li>If you want to display download instructions, you can do so by creating another directory under wp-content and placing the files you create for this purpose in this directory. See the Options page for instructions for naming these files. You can also let the plugin generate links to Download Monitor downloads.</li>
+<li>If you want to use the sidebar widget, then a number of conditions must be met. Firstly, you must use thumbnails that fit the sidebar. Secondly, you <em>must</em> enter a page id for the page or post where the showcase is displayed. The page id is shown in the status bar if you hover the mouse over an Edit page link or button. <em>Showcase widget</em> will only display a new theme after at least 20 minutes (note, however, that this value and the widget screen texts can be changed in the widget control). Although you can add more than one Showcase widget, currently, they will display the same theme image for the time being, as the necessary code is generated by the plugin. This means that you must view your showcase at least once in order to generate code for the widget.</li>
+</ol>
+
+<p><em>WP Theme Showcase ext and i18n</em> employs three different image sizes (if optimally configured; in the default options, 'screenshot.png' is used for all three image sizes). The showcase proper, which displays all the uploaded themes with a user-defined number of pieces of information (if available), makes use of medium-size screenshot files. <em>Showcase ext</em> creates one or two indices, "Table of Contents," that employ small-size screenshot files, "thumbnails." I have found that 100x100px images fit well in the thumbnail index.</p>
+
+<p>If the user clicks the medium-size screenshot files, if optimally set up, he will be shown large pictures for a closer inspection of the design of the theme. If Shutter Reloaded or a compatible plugin is activated, the users may browse all the large pictures as a set. It is the responsibility of admin to provide these images. It is also possible to preview the theme with the content from the current blog.</p>
+
+<p>If admin enters multiple user-defined filenames for the medium-size screenshots, <em>Showcase ext</em> will loop through these filenames and use the first filename that matches an existing file, as the theme image of the showcase proper. Optionally, it will add links to any additional image files found. If no screenshot is found, a placeholder is used.</p>
+
+<p><em>Showcase ext</em> can search for a number of readme filenames (the Options page provides a sample of such filenames, of which five are chosen upon first-time activation). You can modify the list in the Options. <em>Showcase ext</em> will create a link for each existing readme file, in the order of the filenames entered. This is useful, e.g., if translations of the readme files are available. Of course, the same feature can  display links to license and changelog files (see my site for an example).</p>
+
+<p>A later version may allow admin to enter additional directories for theme images (note that WP 2.9 supports this now; it should work with this version of the plugin as well) and readme files (thus allowing admin to keep his own files in a separate directory), especially if you tell me that you need it.</p>	<hr />
+		<h3>Frequently Asked Questions</h3>
+	<h4>Can I style the showcase and/or the widget?</h4>
+
+<p>Yes. The generated HTML code includes a number of divisions, classes and id's that allow for CSS styling (see below).</p>
+
+<p>If you want to style <em>Showcase ext</em>, I recommend <a href="http://getfirebug.com/" title="A wealth of web development tools at your fingertips">Firebug</a> as an invaluable tool.</p>
+
+<p>There are four or even five divisions in the HTML output. The whole ordinary output is inside the showcaseext div's. Inside this division are three divisions: one for the thumbnail index, one for the name index, and one for the showcase proper that displays all the available themes with a configurable number of pieces of additional information. Inside the showcase division, each theme is enclosed in div tags with the class name 'theme'. See all the main selectors in the included showcaseext.css file.</p>
+
+<p>The two included Shutter set classes are mentioned for your information. You should probably let Shutter Reloaded or a compatible plugin style these classes.</p>
+
+<h4>Do I really need three different screenshot sizes?</h4>
+
+<p>Well, yes and no. The design of the plugin assumes that you have three different sizes as explained under Installation. The thumbnail index and the theme showcase will look better if you use small thumbnails for the index and medium-size images for the showcase proper. Use of full-size screenshot is optional, however.</p>
+
+<p>However, it <em>is</em> possible to use the plugin with only one screenshot size, indeed, with the standard screenshots included with themes from the WordPress theme repository. The only requirement is that the filename of the screenshots is the same for each size, e.g., screenshot.png or screenshot.jpg.</p>
+
+<p>Even if you use only one or two screenshot sizes, the display of the full-size images provides extra functionality, if Shutter Reloaded or a compatible plugin is active. Then it is easy to flip through all the full-size screenshots.</p>
+
+<h4>Does it run under WP 2.8?</h4>
+
+<p>No, it does not, as the handling of the available themes has changed with WP 2.9. Upgrade to WP 2.9. If you, for some reasons, need to run <em>Showcase ext</em> under WP 2.7 or 2.8, then go to the plugin homepage and download the legacy version. The legacy version is tested under WP 2.8 and has no issues known to me.</p>
+
+<h4>How do you translate the theme description?</h4>
+
+<p>The plugin does not translate the description. You have to translate the Description field in the comment section of the style.css. <em>Or</em> you can configure <em>Showcase ext</em> to use a translation from a separate file.</p>
+
+<h4>Why have you written this plugin?</h4>
+
+<p>The primary reason is that I needed <em>WP Theme Showcase ext and i18n</em> for <a href="http://wordpress.blogos.dk/" title="WP tips, themes and plugins">my WordPress portal</a>. A second reason is that a real project makes it funnier to learn PHP etc.</p>
+
+<h4>My own images or texts do not show up?</h4>
+
+<p>Check if the features you are missing are enabled in the Options page.</p>
+
+<p>Then try to enable the debug mode and check if the plugin looks for the right files in the right directories. If not, change the options and/or the filenames/directories to ensure a match. If you are sure that you have found a bug, go to the plugin page and file a report.</p>
+
+<h4>Showcase ext disappears altogether, when I enable one feature or another?</h4>
+
+<p>This was a problem with version 1.5.1 and earlier. Hopefully, it is now solved. However, if you experience this problem, try to disable Include Shutter class options. If <em>Showcase ext</em> still disappears, watch out for other plugins. <em>Showcase ext</em> <em>may</em> disappear due to a conflict with other plugins. If you have tried to disable each and every plugin, and the problem still persists, then file a bug report on the plugin homepage. Please, include a debug report and a description of what you did that caused the error.</p>
+
+<h4>The variable for number of themes is wrong. What can I do?</h4>
+
+<p>If you delete a theme that it marked as hidden, <em>Showcase ext</em> will detect it and print a Warning. But, currently, you have to help it update the number and names of themes marked to be hidden. On the plugin options page, go to Hide themes and click Save changes. This will update the number and names of hidden themes.</p>	<hr />
+		<h3>Screenshots</h3>
+	<ol>
+<li>Name index and thumbnail index.</li>
+
+<li>The Showcase proper, here shown with Description and Download instruction read from separate user-defined files. All other entries are extracted from the style.css file belonging to each theme.</li>
+<li>Indices options</li>
+<li>Theme information options</li>
+<li>User-defined theme descriptions and download instructions</li>
+<li>Various options</li>
+<li>Debug mode and configuration</li>
+<li>Widget</li>
+</ol>	<hr />
+		<h3>Changelog</h3>
+
+	<h4>2.5.3</h4>
+
+<p>Fixed debugging and debug-reports as well as a couple option names.</p>
+
+<h4>2.5.2</h4>
+
+<ul>
+<li>The bug fix in 2.5.1 had side effects. I have implemented another, better solution. You now again have to select which themes you want to <em>hide</em>, not show, in the showcase. The internal changes in 2.5.1 was also dropped.</li>
+</ul>
+
+<h4>2.5.1</h4>
+
+<ul>
+<li><p>Fixed the bug that the showcase disappeared if no theme was selected for being hidden. Now you have to select which themes you want to show in the showcase.</p></li>
+<li><p>Various internal changes.</p></li>
+</ul>
+
+<h4>2.5</h4>
+
+<ul>
+<li><p>Only displays credits with external links, if admin has enabled it. Please, enable it! It links to my site, which is 100% non-commercial.</p></li>
+<li><p><em>Showcase ext</em> now has options to hide themes from being shown in the showcase.</p></li>
+
+<li><p><em>Showcase ext</em> now uses a registered shortcode, which will allow for multiple instances on the same page with different parameters. In version 2.5, shortcode parameters are <em>not yet</em> supported.</p></li>
+<li><p>Plugin options page is illustrated so that it is easier to use. It also supports whitelisting.</p></li>
+<li><p><em>Showcase ext</em> is now able to display a user-defined links section read from a text file.</p></li>
+<li><p>Added Showcase Widget with options</p></li>
+<li><p>Added some data validation functions for filenames and directories</p></li>
+
+<li><p>Removed the instruction to use UTF-8 encoded files for user-defined theme description and download instruction files. Other encodings may work on your server. However, I recommend that you do use UTF-8 encoded files, as this is the WP standard.</p></li>
+<li><p>The debugging report was rewritten and greatly extended.</p></li>
+<li><p>Valid XHTML 1.0 Transitional (hopefully). Note that there are so many features and options that it is virtually impossible for me to check all combinations. Please, notify me if you find a bug.</p></li>
+<li><p>CSS class 'theme_readmelink' renamed to 'theme_readmelinks'</p></li>
+<li><p>A lot of changes that I do not really remember. Sorry about that.</p></li>
+</ul>
+
+<h4>1.5.1</h4>
+
+<p>*Bugfix in the activation database</p>
+
+<h4>1.5</h4>
+
+<ul>
+<li><p>Now supports user-defined theme descriptions and download instructions.</p></li>
+<li><p>Now supports multiple user-defined screenshot filenames for display of theme image.</p></li>
+<li><p>Links may be displayed for available screenshots not used for the theme image.</p></li>
+<li><p>Now supports user-defined readme filenames. Readme links are only displayed if a given filename exists.</p></li>
+<li><p>Added optional extensive debug report, either appended to the showcase or as a separate HTML file.</p></li>
+<li><p>Added optional function to complete last row of thumbnail index table.</p></li>
+
+</ul>
+
+<h4>1.00</h4>
+
+<p>Initial public release</p>	<hr />
+	
+	<h3>Upgrade Notice</h3>
+	<dl>
+		<dt>2.5.3</dt>
+		<dd>Various bugfixes for version 2.5, 2.5.1 and 2.5.2.</dd>
+
+		<dt>2.5</dt>
+		<dd>Support for WP 2.9. New widget-support. Hide themes from being viewed. Added placeholder for missing thumbnails etc. Added activation and deactivation routines. Debugging features extended. Several features added (but still no pagination, sorry).</dd>
+	</dl>
+
+	<h3>Translations</h3>
+<p><em>WP Theme Showcase ext and i18n</em> is fully internationalized. If a language file for the current locale exists in the plugin directory, it will be used.</p>
+
+<p>If no language file is available for your locale, you are welcome to translate it, using a program like <a href="http://www.poedit.net">poEdit</a>. If you notify me, I will link to your translation here. Thank you very much!</p>
+
+<p>Available Translations</p>
+
+<ul>
+<li><a href="http://wordpress.blogos.dk">Danish</a>, by myself</li>
+</ul>
+
+</body>
+</html>

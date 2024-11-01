@@ -1,0 +1,77 @@
+/* 	Styling for WP Theme Showcase ext and i18n version 1.5.1 
+	by GeorgWP http://wordpress.blogos.dk/showcaseext */
+
+/* This id is the id of the total outpout */
+#showcaseext {width:590px;}
+
+/* These id's are the names of the main divisions or blocks */
+#Name_index, #thumbnail_index {margin-top: 1em;}
+/* These id's will be localized; remember to include them */
+#Miniatureoversigt, #Navneoversigt {margin-top: 1em;}
+#Thumbnail_index {width: 590px;}
+
+/* Id's in the thumbnail index caption */
+#number_of_thumbnail_index_themes {font-weight: bold;}
+#click_picture_message {font-weight: normal;}
+#jump_to_name_index_in_thumbnail_index {font-weight: normal;}
+
+/* Summary of the Name Index */
+#total_theme_number {font-weight: normal;}
+
+/* Styling of the Thumbnail Index table */
+#showcaseext table {margin: auto auto auto auto; cellspacing="5"; cellpadding="3";}
+#showcaseext table tr {height: 150px; vertical-align: top;}
+#showcaseext table td {padding: 1px auto 1px 1px; align: center; vertical-align: text-bottom;}
+#showcaseext table caption {caption-side: top;}
+#showcaseext img {margin: 5px 5px;}
+
+/* The following id and classes are used in the showcase proper */
+#showcase {}
+
+/* The whole display area for each theme */
+.theme {}
+
+/* The various elements thereof */
+.theme_headers {margin-top: 1em; font-weight: normal;}
+.link_images {vertical-align:top;}
+.link_images img {}
+.additional_images {}
+.additional_images_links {}
+.thumb_themenames {width: 100px; vertical-align: bottom; text-align: center; font-size: 85%;}
+.theme_images {float: left; margin-right: 10px;}
+.theme_info_intro {font-weight: bold;}
+.theme_author {font-weight: normal;}
+.theme_author_link {}
+.theme_description {}
+.theme_readmelinks {font-weight: normal;}
+.theme_tags {}
+.theme_tags_translated {font-weight: normal;}
+.theme_testrun_intro {}
+.theme_testrun2_intro {font-weight: bold;}
+.theme_testrun_link {font-weight: normal;}
+.theme_testrun2_link {font-weight: normal;}
+.theme_nopreview {font-weight: bold;}
+.jumps {}
+
+
+#acknowledgement {font-size: 80%; text-align: center;}
+
+#debugreport {width: 590; font-size: 80%}
+
+#debugreport table tr {height: 20px;}
+
+#debugreport h3 { margin-top: 1.4em; font-weight: bold; padding-left: 200px; border: solid 1px maroon;}
+#debugreport h4 { margin-top: 1.0em; font-weight: bold;}
+
+#showcaseext_widget {align: center; width: 290px; padding: 7px 0 7px 0; margin: 7px auto 7px 0; border: 1px solid #F9A648; background-color: #white}
+#showcaseext_widget table {width: 187px /* auto */; margin: 0px auto 7px 51px; /* border: 1px solid green; */}
+#showcaseext_widget table td {align: center; width: 187px}
+
+#showcaseext_widget table img {margin: 10px auto 10px 0px; vertical-align: center;}
+#showcaseext_widget caption {background-color: #F4F8F9; color: #F9A648; font-weight: bold; font-style: oblique; padding: 5px 5px 5px 5px;}
+#showcaseext_widget a {color: #F9A648;}
+#showcaseext_widget a:hover {color: red;}
+
+.credit  {text-align: right; line-height: 1em; font-size: 75%; color: #F9A648; padding-right: 7px; padding-bottom: 0px;}
+
+.debuggingwarning {margin: 5px; text-align: center; color: red; font-size: 3em; font-weight: bold; border: 2px solid red; /* display: none;*/}

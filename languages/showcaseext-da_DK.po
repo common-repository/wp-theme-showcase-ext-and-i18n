@@ -1,0 +1,1194 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Theme Showcase ext and i18n version 2.5.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-02-25 18:40+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Team Blogos <wordpress@blogos.dk>\n"
+"Language-Team: Team Blogos <wordpress@blogos.dk>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2;plural=n != 1;\n"
+"X-Poedit-Basepath: c:\\wamp\\www\\wp29\\wp-content\\plugins\\wp-theme-showcase-ext-and-i18n\n"
+"X-Poedit-Language: Danish\n"
+"X-Poedit-Country: DENMARK\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;__ngettext:1,2;__ngettext_noop:1,2;_nc:1,2;_nx:1,2;_n_noop:1,2;_nx_noop;_x;_c;esc_html__;esc_html_e;esc_html_x;esc_attr__;esc_attr_e;esc_attr_x\n"
+"X-Poedit-SearchPath-0: c:\\wamp\\www\\wp29\\wp-content\\plugins\\wp-theme-showcase-ext-and-i18n\n"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/credits-options.php:1
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/showcaseext-options-page.php:28
+msgid "Credits"
+msgstr "Omtaler"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/credits-options.php:3
+msgid "If you think that WP Theme Showcase ext and i18n is useful for you, you are encouraged to display a small acknowledgement at the end of the showcase."
+msgstr "Hvis du synes, at WP Theme Showcase ext and i18n kan bruges, er du meget velkommen til at inkludere en lille besked herom i bunden af udstillingsmontren."
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/credits-options.php:3
+msgid "It is possible to disable the developer and/or the translator acknowledgement (which, of course, should be done, if you run Showcase ext in the original edition)."
+msgstr "Det er dog muligt at deaktivere omtalen af udvikleren og/eller oversætteren (hvilket selvfølgelig bør gøres, hvis man bruger Showcase ext i den originale engelske udgave)."
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/credits-options.php:7
+msgid "Display developer acknowledgement?"
+msgstr "Vis omtale af udvikleren?"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/credits-options.php:10
+msgid "Also display translator acknowledgement?"
+msgstr "Vis også omtale af oversætteren?"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/credits-options.php:16
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/debug-options.php:17
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/dl-dlm-instructions-options.php:18
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/dl-instructions-options.php:29
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/generate-widget-options.php:20
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/hide-themes-options.php:31
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/internal-links-options.php:29
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/readme-filenames-options.php:28
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/screenshot-filenames-options.php:55
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-descriptions-options.php:28
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-info-options.php:32
+msgid "Save changes"
+msgstr "Gem ændringer"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/debug-options.php:1
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/showcaseext-options-page.php:31
+msgid "Debug mode"
+msgstr "Debugging"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/debug-options.php:2
+msgid "If you, for example, have difficulty styling your showcase or if the layout differs from your expectations, then you may enable debug mode. Then the plugin will list a good number of variables for your inspection below the showcase."
+msgstr "Hvis du, f.eks., har vanskeligheder med at style din udstillingsmontre, eller hvis layoutet ikke svarer til dine forventninger, kan du aktivere debug-funktionen. Så lister pluginnet en del variabler neden for udstillingsmontren."
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/debug-options.php:2
+msgid "You can also let the plugin save the report."
+msgstr "Du kan også lade pluginnet gemme rapporten."
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/debug-options.php:2
+msgid "If you choose to save reports, you must provide a subdirectory for them in the wp-content directory. The plugin will look for the subdirectory 'debug_reports', if you do not provide any name for it. Note also that the plugin does not delete the files it creates."
+msgstr "Hvis du vælger at gemme rapporterne, skal du selv sørge for en mappe til dem i wp-content mappen.  Pluginnet vil se efter mappen 'debug_reports', hvis du ikke selv indtaster et navn. Bemærk også, at pluginnet ikke sletter de filer, det opretter."
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/debug-options.php:2
+msgid "If you choose to not save reports, the debug report cannot inform you about form submission variables in the $_POST variable."
+msgstr "Hvis du vælger ikke at gemme rapporter, kan debug-rapporten ikke informere dig om variablerne i den $_POST-variabel, som formularen med indstillinger indsender."
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/debug-options.php:5
+msgid "Dump debug report into a HTML file for inspection?"
+msgstr "Udlæs debug-rapporten i en HTML-fil, så du kan inspicere den?"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/debug-options.php:8
+msgid "Add a counter to the file name and save each and every debug report (debug_report[1].htm etc.)?"
+msgstr "Tilføj en tæller til filnavnet og gem alle debug-rapporter (debug_report[1].htm osv.)?"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/debug-options.php:10
+msgid "Directory for debug report files (no trailing slash):"
+msgstr "Mappe til debug-rapporterne (ingen skråstreg til slut):"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/debug-options.php:13
+msgid "Enable debug mode?"
+msgstr "Aktivér debugging?"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/delete-options-options.php:1
+msgid "Delete options for WP Theme Showcase ext and i18n"
+msgstr "Slet indstillingerne for WP Theme Showcase ext and i18n"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/delete-options-options.php:3
+msgid "You can delete the Showcase ext options. This is useful, if you want to completely remove this plugin from your WordPress installation."
+msgstr "Du kan slette Showcase ext's indstillinger. Det er nyttigt, hvis du gerne vil fjerne dette plugin helt fra din WordPress-installation."
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/delete-options-options.php:3
+msgid "Note that the widget options will be deleted as well."
+msgstr "Bemærk, at widget-indstillingerne også vil blive nulstillet."
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/delete-options-options.php:4
+msgid "If you really want to delete the options for this plugin and its widget, then you must select the checkbox below and then press the Delete options button."
+msgstr "Hvis du virkelig ønsker at slette indstillingerne for dette plugin og dets widget i WordPress-databasen, skal du krydse af i afkrydsningsboksen nedenfor og derefter trykke på knappen Slet indstillinger."
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/delete-options-options.php:4
+msgid "In order to actually delete the options, you must deactivate the plugin."
+msgstr "For rent faktisk at slette indstillingerne, skal du deaktivere pluginnet."
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/delete-options-options.php:7
+msgid "Yes, I want to delete the options for this plugin"
+msgstr "Ja, jeg ønsker at slette pluginnets indstillinger"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/delete-options-options.php:10
+msgid "Delete options"
+msgstr "Slet indstillingerne"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/dl-dlm-instructions-options.php:1
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/showcaseext-options-page.php:26
+msgid "Show WordPress Download Monitor download link"
+msgstr "Vis WordPress Download Monitors download-link"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/dl-dlm-instructions-options.php:5
+msgid "You can choose an alternative function that also reads a text file. It will display a WordPress Download Monitor link, if the WordPress Download Monitor function exists. However, this text file must only contain the id number that WordPress Download Monitor has assigned to the specific download. The display format will be the one defined as standard in WordPress Download Monitor. The file names are fixed in that they must be set to the title of the theme with all spaces replaced by underscores <i>plus</i> the suffix \"_id\". For example, if the theme name is Amazing Grace, the WordPress Download Monitor download instruction filename must be Amazing_Grace_id.txt. As you can see, the filenames are case-sensitive. The files must reside in the directory for the download instruction files."
+msgstr "Du kan vælge en alternativ funktion, som også læser en tekstfil. Det vil vise et link, som aktiverer WordPress Download Monitor, hvis WordPress Download Monitor-funktionen eksisterer. Tekstfilen må kun indeholde det id-nummer, som WordPress Download Monitor har tildelt download-filen. Visningsformatet er det, der er defineret som standard i WordPress Download Monitor. Filnavnene er fastlagt på forhånd, idet de skal være lig med temaernes titler, idet alle mellemrum dog skal erstattes af understregningstegn. Desuden skal selve filnavnet tilføjes \"_id\". For eksempel: Hvis temaets navn er Amazing Grace, skal filnavnet med WordPress Download Monitors id være Amazing_Grace_id.txt. Som du kan, skelnes der mellem store og små bogstaver. Filerne skal ligge i mappen med egne download-instruktioner."
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/dl-dlm-instructions-options.php:11
+msgid "Display WordPress Download Monitor download link read from text file?"
+msgstr "Vis WordPress Download Monitor-downloadlinks indlæst fra tekst-filer?"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/dl-instructions-options.php:1
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/showcaseext-options-page.php:25
+msgid "User-defined download instructions"
+msgstr "Egne download-instruktioner"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/dl-instructions-options.php:5
+msgid "You can add your own user-defined download instructions to the Description fields of the style.css files with HTML tags etc. However, this means that you must remember to edit the style.css file each time a theme is updated. Therefore, Showcase ext version 1.5 and later let you load and display download instructions from separate text-files."
+msgstr "Du kan tilføje dine egne download-instruktioner med HTML-tags til feltet Description i style.css-filerne osv. Dette betyder dog, at du skal huske at redigere style.css-filen, hver gang et tema opdateres. Derfor giver Showcase ext version 1.5 eller nyere dig mulighed for at indlæse og vise download-instruktioner fra separate tekst-filer."
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/dl-instructions-options.php:6
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/internal-links-options.php:6
+msgid "You have to create a directory under wp-content for this purpose and set the necessary read permissions (obviously, you must also make it writable in order to save your files in it). Here you can set the directory name."
+msgstr "Du skal selv oprette en mappe under wp-content til dette formål og sætte de nødvendige læse-rettigheder (du skal naturligvis også give skriveadgang, så filerne kan gemmes i mappen). Her kan du angive mappe-navnet."
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/dl-instructions-options.php:7
+msgid "The file names are fixed in that they must be set to the title of the theme with all spaces replaced by underscores. For example, if the theme name is Amazing Grace, the download instruction filename must be Amazing_Grace.txt. As you can see, the filenames are case-sensitive."
+msgstr "Filnavnene kan ikke ændres, idet de skal være identiske med temaernes titler, hvor alle mellemrum er erstattet af understregningstegnet. For eksempel, hvis temanavnet er Amazing Grace, skal download-instruktions-filnavnet være Amazing_Grace.txt. Som du kan se, skelnes der mellem store og små bogstaver i filnavnet."
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/dl-instructions-options.php:12
+msgid "Directory for download instruction files (no trailing slash):"
+msgstr "Mappe til filerne med download-instruktioner (ingen skråstreg til sidst):"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/dl-instructions-options.php:22
+msgid "Display download instructions read from text file?"
+msgstr "Vis download-instruktioner indlæst fra tekst-filer?"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/generate-widget-options.php:1
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/showcaseext-options-page.php:29
+msgid "Generate Showcase Widget Code"
+msgstr "Generér kode til Showcase Widget"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/generate-widget-options.php:5
+msgid "You can enable the generation of Showcase Widget code for use with the Showcase Ext Widget, if your theme is widget-ready.*<br/><br/>Note, however, that certain conditions apply."
+msgstr "Du kan aktivere genereringen af kode til Showcase Widget'en, hvis dit tema er widget-klart.*<br/><br/>Bemærk dog, at der er visse forudsætninger, der skal være på plads."
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/generate-widget-options.php:6
+msgid "Thumbnails of a suitable size must exist.<br/>You <i>must</i> also enter a page id in the Showcase Widget Control. The plugin needs the page (or post) id in order to generate the code that the widget uses."
+msgstr "Der skal være miniaturer af en passende størrelse.<br/>Du <i>skal</i> endvidere indtaste en side-id i Showcase Widget's kontrolpanel. Pluginnet skal bruge side-id'et (eller et indlægs-id) for at kunne generere den kode, som widget'en bruger."
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/generate-widget-options.php:7
+msgid "<sup>*</sup> You can, however, enter the PHP/HTML code directly in your theme, if it is not widget-ready."
+msgstr "<sup>*</sup> Du kan dog indtaste PHP/HTML-kode direkte i dit tema, hvis det ikke er widget-klar."
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/generate-widget-options.php:13
+msgid "Generate Showcase Widget Code?"
+msgstr "Generér kode til Showcase Widget?"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/hide-themes-options.php:1
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/showcaseext-options-page.php:34
+msgid "Hide themes"
+msgstr "Skjul temaer"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/hide-themes-options.php:10
+msgid "Here you can choose which themes you want to hide."
+msgstr "Her kan du vælge, hvilke temaer du ønsker at skjule."
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/internal-links-options.php:1
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/showcaseext-options-page.php:27
+msgid "User-defined internal links"
+msgstr "Brugerdefinerede interne links"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/internal-links-options.php:5
+msgid "You can add your own user-defined links which will be displayed before the test-run link. The code is read from text files)."
+msgstr "Du kan tilføje dine egne links, som vil blive vist lige inden \"Lad mig prøvekøre dette tema\"-linket. Koden indlæses fra tekst-filer."
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/internal-links-options.php:7
+msgid "The file names are fixed in that they must be set to the title of the theme with all spaces replaced by underscores. For example, if the theme name is Amazing Grace, the internal links filename must be Amazing_Grace.txt. As you can see, the filenames are case-sensitive."
+msgstr "Filnavnene kan ikke ændres, idet de skal være identiske med temaernes titler, hvor dog alle mellemrum skal være erstattet af understregningstegnet. For eksempel, hvis temanavnet er Amazing Grace, skal interne links-filnavnet være Amazing_Grace.txt. Som du kan se, skelnes der mellem store og små bogstaver i filnavnet."
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/internal-links-options.php:12
+msgid "Directory for internal links files (no trailing slash):"
+msgstr "Mappe til filerne med interne links (uden skråstreg til sidst):"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/internal-links-options.php:22
+msgid "Display internal links read from text file?"
+msgstr "Vis interne links indlæst fra tekst-filer?"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/readme-filenames-options.php:1
+msgid "Case-sensitive user-defined readme filenames"
+msgstr "Filnavne på readme-filer (der skelnes mellem store og små bogstaver)"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/readme-filenames-options.php:5
+msgid "Showcase ext will display links to available readme files. The default filenames that Showcase ext checks for are: readme readme.txt readme.htm readme.html readme.pdf. Here you can add (or delete) filenames to your liking. Note that Unix/Linux filenames are usually case-sensitive."
+msgstr "Showcase ext viser links til tilgængelige readme-filer. De filnavne, som Showcase ext tjekker for som standard, er: readme readme.txt readme.htm readme.html readme.pdf. Her kan du tilføje (eller slette) filnavne, som du ønsker. Bemærk, at der som regel er forskel på store og små bogstaver i Unix/Linux-filnavne."
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/readme-filenames-options.php:9
+msgid "Case-sensitive filenames of readme files:"
+msgstr "Filnavne på readme-filer (der skelnes mellem store og små bogstaver):"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/readme-filenames-options.php:21
+msgid "Here is a sample of filenames that could be useful: "
+msgstr "Her er en samling filnavne, som du måske kan bruge: "
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/reset-options-options.php:1
+msgid "Reset WP Theme Showcase ext and i18n to default options"
+msgstr "Nulstil til standardindstillingerne for WP Theme Showcase ext and i18n"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/reset-options-options.php:3
+msgid "You can reset the Showcase ext options. This is useful, if the options stored in the database have become invalid (e.g., if you manually have updated the plugin files to a new version with new options)."
+msgstr "Du kan nulstille Showcase ext's indstillinger. Det kan være nyttigt, hvis indstillingerne, der er gemt i databasen, er blevet ugyldige (fx hvis du manuelt har opdateret pluginfilerne til en ny version med nye indstillingerne)."
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/reset-options-options.php:3
+msgid "Note that the widget options will be reset as well."
+msgstr "Bemærk, at widget-indstillingerne også vil blive nulstillet."
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/reset-options-options.php:4
+msgid "If you really want to reset the options for this plugin and its widget, then you must select the checkbox below and then press the Reset to default options button."
+msgstr "Hvis du virkelig ønsker at nulstille indstillingerne for pluginnet og dets widget, skal du krydse af i afkrydsningsboksen nedenfor og derefter trykke på knappen Nulstil til standardindstillinger."
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/reset-options-options.php:4
+msgid "In order to actually reset the options, you must deactivate this plugin with this option set and then reactivate it."
+msgstr "For rent faktisk at nulstille indstillingerne, skal du deaktivere pluginnet med denne indstilling sat og derefter aktivere det igen."
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/reset-options-options.php:7
+msgid "Yes, I want to reset the options for this plugin"
+msgstr "Ja, jeg ønsker at nulstille indstillingerne for dette plugin"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/reset-options-options.php:10
+msgid "Reset to default options"
+msgstr "Nulstil til standardindstillinger"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/screenshot-filenames-options.php:1
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/showcaseext-options-page.php:22
+msgid "User-defined image filenames"
+msgstr "Brugerdefinerede billed-filnavne"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/screenshot-filenames-options.php:5
+msgid "Here you can change the default filenames. The design of this plugin assumes that you have produced your own screenshots of the available themes. However, default WordPress themes are most often packaged with one or more png images."
+msgstr "Her kan du ændre standardfilnavnene, hvis du ønsker det. Pluginnet forudsætter, at du har lavet dine egne skærmbilleder med de tilgængelige temaer. Som standard inkluderer WordPress-temaer et eller flere png-billeder."
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/screenshot-filenames-options.php:5
+msgid "When Showcase ext is activated, it initializes the filename variables so that the standard screenshot.png will be used for all three image sizes. If you want to unleash all the power of Showcase ext, then you should create additional images and change the filenames below."
+msgstr "Når Showcase ext aktiveres, initialiseres filnavn-variablerne, så screenshot.png, der er standard for WP's temasamling, anvendes for alle tre billedstørrelser. Hvis du vil udnytte Showcase ext fuldt ud, så skal du lave flere billeder og ændre filnavnene nedenfor."
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/screenshot-filenames-options.php:10
+msgid "Filename of small-size screenshots (thumbnails):"
+msgstr "Filnavn på de mindste skærmbilleder (miniaturer):"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/screenshot-filenames-options.php:19
+msgid "Filename(s) of medium-size screenshots (theme screenshots, see illustration above):"
+msgstr "Filnavn(e) på skærmbilleder i mellemstørrelse (skærmbillederne af temaerne, se illustrationen ovenfor):"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/screenshot-filenames-options.php:31
+msgid "Showcase ext supports multiple filenames for this field. If the first file name is not found, it will look for the next filename etc. For instance, it will allow you to choose a filename for your own pictures, but to let the plugin fall back to the WordPress default filename (screenshot.png), if you have not (yet) produced your own picture."
+msgstr "Showcase ext understøtter, at du kan anføre flere filnavne i dette felt. Hvis det første filnavn ikke findes, vil det se efter det næste osv. For eksempel vil det lade dig vælge et filnavn til dine egne billeder, men lade pluginnet falde tilbage på WordPress' standardfilnavn (screenshot.png), hvis du (endnu) ikke har lavet dit eget billede."
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/screenshot-filenames-options.php:31
+msgid "If you have enabled Display links to additional screenshots above, then Showcase ext will display links to the rest of the available screenhots."
+msgstr "Hvis du har aktiveret Vis links til flere skærmbilleder ovenfor, viser Showcase ext links til resten af de tilgængelige skærmbilleder."
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/screenshot-filenames-options.php:37
+msgid "Filename of full-size screenshots (large theme screenshot, not illustrated):"
+msgstr "Filnavn på skærmbillederne i fuldstørrelse (store skærmbilleder af temaerne, ikke illustreret):"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/screenshot-filenames-options.php:46
+msgid "Note: The following sizes are recommended for user-defined screenshots:"
+msgstr "Bemærk: De følgende størrelser på egne skærmbilleder anbefales:"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/screenshot-filenames-options.php:47
+msgid "The full-size images should be smaller than the available screen size of the ordinary blog visitor."
+msgstr "Billederne i fuld størrelse bør være mindre end den skærmstørrelse, som den gennemsnitlige besøgende har til rådighed."
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/screenshot-filenames-options.php:48
+msgid "300x300px for the medium-size images that are displayed in the showcase. All images should be of equal width."
+msgstr "300x300 px for de billeder i mellemstørrelse, som vises i udstillingsmontren. Alle billeder bør have samme bredde."
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/screenshot-filenames-options.php:49
+msgid "100x100px for the thumbnails used in the thumbnail index. All images should be of equal width and height."
+msgstr "100x100px for de miniaturer, der bruges i miniature-oversigten. Alle billeder bør have samme bredde og højde."
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/showcaseext-debug-report.php:57
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/showcaseext-debug-report.php:74
+msgid "Debug report"
+msgstr "Debug-rapport"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/showcaseext-debug-report.php:86
+#, php-format
+msgid "%1$s dated %2$s|for debugging, feel free to ignore"
+msgstr "%1$s fra %2$s"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/showcaseext-debug-report.php:86
+msgid "Y-m-d H:i:s"
+msgstr "Y-m-d H.i.s"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/showcaseext-debug-report.php:111
+#, php-format
+msgid "%d element(s) in total.|for debugging, feel free to ignore"
+msgstr "%d elementer i alt."
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/showcaseext-debug-report.php:117
+#, php-format
+msgid "Array %s is empty.|for debugging, feel free to ignore"
+msgstr "Arrayet %s er tomt."
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/showcaseext-debug-report.php:118
+msgid "Check if this part of the script is enabled in the options.|for debugging, feel free to ignore"
+msgstr "Tjek, om denne del af skriptet er aktiveret i Indstillingerne."
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/showcaseext-debug-report.php:139
+msgid "Debug report: $_POST options missing|for debugging, feel free to ignore"
+msgstr "Debug-rapport: $_POST-indstillinger mangler"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/showcaseext-debug-report.php:140
+msgid "You have not yet submitted the options page with debugging enabled.|for debugging, feel free to ignore"
+msgstr "Du har endnu ikke Opdateret indstillinger med debugging aktiveret."
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/showcaseext-options-page.php:15
+msgid "Showcase ext and i18n"
+msgstr "Udvidet og internationaliseret udstillingsmontre<br /></small>(WP Theme Showcase ext and i18n)</small>"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/showcaseext-options-page.php:17
+msgid "Table of Contents for this options page"
+msgstr "Oversigt over indstillingsmulighederne"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/showcaseext-options-page.php:18
+msgid "Plugin usage"
+msgstr "Brug af pluginnet"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/showcaseext-options-page.php:19
+msgid "\"Table of Contents\" options"
+msgstr "Indstillinger for \"Indholdsfortegnelse\""
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/showcaseext-options-page.php:20
+msgid "User-defined titles and messages"
+msgstr "Brugerdefinerede titler og beskeder"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/showcaseext-options-page.php:21
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-info-options.php:1
+msgid "Theme information options"
+msgstr "Indstillinger for tema-informationer"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/showcaseext-options-page.php:23
+msgid "User-defined readme filenames"
+msgstr "Brugerdefinerede readme-filnavne"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/showcaseext-options-page.php:24
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-descriptions-options.php:1
+msgid "User-defined theme descriptions"
+msgstr "Egne tema-beskrivelser"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/showcaseext-options-page.php:30
+msgid "Show Widget Credits"
+msgstr "Vis Widget-omtale"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/showcaseext-options-page.php:32
+msgid "Reset Showcase ext options"
+msgstr "Nulstil indstillinger for Showcase ext"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/showcaseext-options-page.php:33
+msgid "Delete Showcase ext options"
+msgstr "Slet indstillinger for Showcase ext"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/showcaseext-options-page.php:37
+msgid "Plugin Usage"
+msgstr "Brug af pluginnet"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/showcaseext-options-page.php:38
+msgid "Create a new page &ndash; or use an existing one &ndash; and insert the shortcode <strong>[showcaseext]</strong> into the page."
+msgstr "Opret en ny side &ndash; eller brug en eksisterende. Indsæt kortkoden <strong>[showcaseext]</strong> på siden."
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/showcaseext-options-page.php:41
+#, php-format
+msgid "If you want to unleash the full power of this plugin, then you will have to create additional screenshots and thumbnails. See below and more in the <a target=_blank href=\"%s\">readme.htm</a> for details."
+msgstr "Hvis du ønsker at udnytte pluginnet fuldt ud, skal du lave flere billeder samt miniaturer. Se nedenfor samt i vejledningen i <a target=_blank href=\"%s\">readme.htm</a>."
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/showcaseext-widget-control.php:2
+msgid "Title:"
+msgstr "Titel:"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/showcaseext-widget-control.php:4
+msgid "Caption:"
+msgstr "Undertekst:"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/showcaseext-widget-control.php:5
+#, php-format
+msgid "Enter caption; use '%s' for number of themes. Default is 'Visit My Showcase with %s WP Themes"
+msgstr "Indtast undertekst (brug '%s' for antal temaer). Standard er 'Besøg min Udstillingsmontre med %s WP-temaer'"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/showcaseext-widget-control.php:7
+msgid "Page ID:"
+msgstr "Side-id:"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/showcaseext-widget-control.php:9
+msgid "Update frequency (in minutes):"
+msgstr "Opdateringsfrekvens (i minutter):"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-descriptions-options.php:5
+msgid "You can translate or add to the Description fields of the style.css files with HTML tags etc. However, this means that you must remember to edit the style.css file each time a theme is updated. Therefore, Showcase ext version 1.5 and later let you load and display theme descriptions from separate text-files."
+msgstr "Du kan oversætte eller tilføje dine egne download-instruktioner med HTML-tags til feltet Description i style.css-filerne osv. Dette betyder dog, at du skal huske at redigere style.css-filen, hver gang et tema opdateres. Derfor giver Showcase ext version 1.5 eller nyere dig mulighed for at indlæse og vise download-instruktioner fra separate tekst-filer."
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-descriptions-options.php:5
+msgid "In the illustration above, the description in Danish is loaded from a UTF-8 text file and displayed instead of the description of the style.css."
+msgstr "I illustrationen ovenfor er beskrivelsen på dansk indlæst fra en UTF-8-tekstfil og vist i stedet for beskrivelsen i style.css."
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-descriptions-options.php:5
+msgid "Note that you can have separate download instructions, if you like (see below)."
+msgstr "Bemærk, at du kan have separate download-instruktioner, hvis du ønsker det (se nedenfor)."
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-descriptions-options.php:5
+msgid "You have to create a directory under wp-content for the theme descriptions and set the necessary read permissions (obviously, you must also make it writable in order to save your files in it). Here you can set the directory name."
+msgstr "Du skal selv oprette en mappe under wp-content til dette formål og sætte de nødvendige læse-rettigheder (du skal naturligvis også give skriveadgang, så filerne kan gemmes i mappen). Her kan du angive mappe-navnet."
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-descriptions-options.php:6
+msgid "The file names are fixed in that they must be set to the title of the theme with all spaces replaced by underscores. For example, if the theme name is Amazing Grace, the theme description filename must be Amazing_Grace.txt. As you can see, the filenames are case-sensitive."
+msgstr "Filnavnene kan ikke ændres, idet de skal være identiske med temaernes titler, hvor dog alle mellemrum skal være erstattet af understregningstegnet. For eksempel, hvis temanavnet er Amazing Grace, skal download-instruktions-filnavnet være Amazing_Grace.txt. Som du kan se, skelnes der mellem store og små bogstaver i filnavnet."
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-descriptions-options.php:11
+msgid "Directory for theme description files (no trailing slash):"
+msgstr "Mappe til filerne med tema-beskrivelserne (uden skråstreg til sidst):"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-descriptions-options.php:21
+msgid "Display user-defined theme descriptions read from text file?"
+msgstr "Vis egne tema-beskrivelser indlæst fra tekst-filer?"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-info-options.php:2
+msgid "You can choose what information you want to display for each theme in addition to the thumbnails and a test-run link."
+msgstr "Du kan vælge hvilke informationer du ønsker at vise for hvert tema i tillæg til miniaturen og et link til at prøvekøre temaet."
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-info-options.php:5
+msgid "Link to full-size images and display them if users click on theme images?"
+msgstr "Link til billeder i fuldstørrelse og vis dem, hvis brugerne klikker på temabillederne?"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-info-options.php:8
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-info-options.php:14
+msgid "Include Shutter <em>set</em> class in the links?"
+msgstr "Medtag Shutter<em>sæt</em>-class i linksene"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-info-options.php:11
+msgid "Display links to additional screenshots?"
+msgstr "Vis links til ekstra skærmbilleder?"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-info-options.php:17
+msgid "Show author"
+msgstr "Vis forfatter"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-info-options.php:20
+msgid "Show description"
+msgstr "Vis beskrivelse"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-info-options.php:23
+msgid "Show tags"
+msgstr "Vis tags"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-info-options.php:26
+msgid "Show translated tags"
+msgstr "Vis oversatte tags"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-info-options.php:29
+msgid "Show links to available readme files. As default Showcase ext looks for a number of filenames. You can add your own (or delete existing ones) below. Showcase ext will display a link for each existing file."
+msgstr "Vis links til tilgængelige readme-filer. Som standard tjekker Showcase ext for et antal filnavne. Du kan tilføje dine egne (eller slette eksisterende) nedenfor. Showcase ext viser et link for hver eksisterende fil."
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-showcase-ext.php:116
+msgid ""
+"WP Theme Showcase ext and i18n requires WordPress 2.9 or newer.<br />\n"
+"\t<a href=\"http://codex.wordpress.org/Upgrading_WordPress\">Please update!</a>"
+msgstr ""
+"WP Theme Showcase ext and i18n kræver WordPress 2.9 eller nyere version.<br />\n"
+"\t<a href=\"http://codex.wordpress.org/Upgrading_WordPress\">Opdatér, hvis du ønsker at bruge dette plugin!</a>"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-showcase-ext.php:129
+msgid "Debug mode on!"
+msgstr "Debugging er slået til!"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-showcase-ext.php:354
+msgid "Name Index"
+msgstr "Navneoversigt"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-showcase-ext.php:471
+msgid "Thumbnail Index"
+msgstr "Miniatureoversigt"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-showcase-ext.php:482
+#, php-format
+msgid "Thumbnail index of %d themes"
+msgstr "Miniatureoversigt over %d danske temaer"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-showcase-ext.php:492
+msgid "Click on a picture to see details about and test run the theme"
+msgstr "Klik på et billede for at se detaljer og prøvekøre et tema"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-showcase-ext.php:510
+msgid "Or jump to "
+msgstr "Eller gå til "
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-showcase-ext.php:630
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-showcase-ext.php:668
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-showcase-ext.php:874
+msgid "Let me test run this theme"
+msgstr "Lad mig prøvekøre dette tema"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-showcase-ext.php:648
+msgid "Additional screenshot"
+msgstr "Ekstra skærmbillede"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-showcase-ext.php:655
+msgid "Extra screenshot:"
+msgstr "Ekstra skærmbillede:"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-showcase-ext.php:658
+msgid "Extra screenshots:"
+msgstr "Ekstra skærmbilleder:"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-showcase-ext.php:682
+msgid "Author: "
+msgstr "Forfatter: "
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-showcase-ext.php:697
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-showcase-ext.php:702
+msgid "Description of version "
+msgstr "Beskrivelse af version "
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-showcase-ext.php:728
+msgid "Read the readme file:"
+msgstr "Læs readme-filen:"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-showcase-ext.php:731
+msgid "Read the readme files:"
+msgstr "Læs readme-filerne:"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-showcase-ext.php:766
+msgid "The developer's tags"
+msgstr "Udviklerens tags"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-showcase-ext.php:777
+msgid "black"
+msgstr "sort"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-showcase-ext.php:778
+msgid "blue"
+msgstr "blå"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-showcase-ext.php:779
+msgid "brown"
+msgstr "brun"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-showcase-ext.php:780
+msgid "green"
+msgstr "grøn"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-showcase-ext.php:781
+msgid "orange"
+msgstr "orange"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-showcase-ext.php:782
+msgid "pink"
+msgstr "lyserød"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-showcase-ext.php:783
+msgid "purple"
+msgstr "lilla"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-showcase-ext.php:784
+msgid "red"
+msgstr "rød"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-showcase-ext.php:785
+msgid "silver"
+msgstr "sølvfarvet"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-showcase-ext.php:786
+msgid "tan"
+msgstr "solbrun"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-showcase-ext.php:787
+msgid "white"
+msgstr "hvid"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-showcase-ext.php:788
+msgid "yellow"
+msgstr "gul"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-showcase-ext.php:789
+msgid "dark"
+msgstr "mørk"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-showcase-ext.php:790
+msgid "light"
+msgstr "lys"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-showcase-ext.php:794
+msgid "one-column"
+msgstr "1-kolonnes"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-showcase-ext.php:795
+msgid "two-column"
+msgstr "2-kolonnes"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-showcase-ext.php:796
+msgid "three-column"
+msgstr "3-kolonnes"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-showcase-ext.php:797
+msgid "four-column"
+msgstr "4-kolonnes"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-showcase-ext.php:798
+msgid "left-sidebar"
+msgstr "venstre-sidepanel"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-showcase-ext.php:799
+msgid "right-sidebar"
+msgstr "højre-sidepanel"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-showcase-ext.php:803
+msgid "custom-colors"
+msgstr "egne-farver"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-showcase-ext.php:804
+msgid "custom-header"
+msgstr "egen-header"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-showcase-ext.php:805
+msgid "theme-options"
+msgstr "tema-indstillinger"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-showcase-ext.php:806
+msgid "threaded-comments"
+msgstr "trådede-kommentarer"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-showcase-ext.php:807
+msgid "sticky-post"
+msgstr "opslag"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-showcase-ext.php:808
+msgid "microformat"
+msgstr "mikroformat"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-showcase-ext.php:813
+msgid "holiday"
+msgstr "ferie"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-showcase-ext.php:814
+msgid "photoblogging"
+msgstr "fotoblogning"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-showcase-ext.php:815
+msgid "seasonal"
+msgstr "årstiderne"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-showcase-ext.php:819
+msgid "fixed-width"
+msgstr "fast-bredde"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-showcase-ext.php:820
+msgid "flexible-width"
+msgstr "variabel-bredde"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-showcase-ext.php:824
+msgid "valid-css"
+msgstr "gyldig-css"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-showcase-ext.php:825
+msgid "valid-XHTML"
+msgstr "gyldigt-XHTML"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-showcase-ext.php:826
+msgid "SEO-friendly"
+msgstr "søgemaskine-venlig"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-showcase-ext.php:827
+msgid "clean"
+msgstr "ren"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-showcase-ext.php:828
+msgid "gray"
+msgstr "grå"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-showcase-ext.php:829
+msgid "widget-ready"
+msgstr "widget-klar"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-showcase-ext.php:830
+msgid "simple"
+msgstr "enkel"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-showcase-ext.php:831
+msgid "gravatars"
+msgstr "gravatarer"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-showcase-ext.php:833
+msgid "grid-based"
+msgstr "gitter-baseret"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-showcase-ext.php:834
+msgid "blank-slate"
+msgstr "lavet-fra-bunden"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-showcase-ext.php:835
+msgid "starter-theme"
+msgstr "begynder-tema"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-showcase-ext.php:836
+msgid "variable-width"
+msgstr "variabel-bredde"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-showcase-ext.php:837
+msgid "mantle-color"
+msgstr "kappe-farvet"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-showcase-ext.php:838
+msgid "grey"
+msgstr "grå"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-showcase-ext.php:842
+msgid "rtl-language-support"
+msgstr "højre-mod-venstre-support"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-showcase-ext.php:843
+msgid "translation-ready"
+msgstr "parat-til-oversættelse"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-showcase-ext.php:844
+msgid "front-page-post-form"
+msgstr "Forside-indlægsformular"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-showcase-ext.php:845
+msgid "widgets"
+msgstr "widget-klar"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-showcase-ext.php:856
+msgid "Translation:"
+msgstr "Oversættelse:"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-showcase-ext.php:874
+msgid "Run"
+msgstr "Kør"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-showcase-ext.php:879
+msgid "Sorry, test run is not available for this theme"
+msgstr "Beklager! Dette tema kan ikke prøvekøres for øjeblikket"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-showcase-ext.php:895
+msgid "Download instructions"
+msgstr "Download-instruktioner"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-showcase-ext.php:917
+msgid "Internal WordPress Download Monitor link"
+msgstr "Internt WordPress Download Monitor-link"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-showcase-ext.php:934
+msgid "See also"
+msgstr "Se også"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-showcase-ext.php:1078
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-showcase-ext.php:1088
+msgid "Jump to"
+msgstr "Gå til"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-showcase-ext.php:1112
+#, php-format
+msgid "%d themes in total"
+msgstr "I alt %d temaer"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-showcase-ext.php:1157
+msgid "<a href=\"http://wordpress.blogos.dk/showcaseext/\">WP Theme Showcase ext and i18n</a> is developed by <a href=\"http://wordpress.blogos.dk/showcaseext/\">GeorgWP</a>"
+msgstr "<a href=\"http://wordpress.blogos.dk/showcaseext/\">WP Theme Showcase ext and i18n</a> er udviklet af <a href=\"http://wordpress.blogos.dk/showcaseext/\">GeorgWP</a>"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-showcase-ext.php:1164
+msgid " and kindly translated by <insert translator's name here>)"
+msgstr " og oversat af <a href=\"http://wordpress.blogos.dk\">Team Blogos</a>"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-showcase-ext.php:1339
+msgid "WP Theme Showcase ext and i18n Options"
+msgstr "Indstillinger for WP Theme Showcase ext and i18n"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-showcase-ext.php:1339
+msgid "Showcase Options"
+msgstr "Indstillinger for Udstillingsmontre"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-showcase-ext.php:1387
+msgid "Path validation error!"
+msgstr "Fejl: Stien blev ikke godkendt."
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-showcase-ext.php:1388
+msgid "Path is reset to nothing."
+msgstr "Stien er blevet nulstillet."
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-showcase-ext.php:1451
+#, php-format
+msgid "Visit my Theme Showcase with %d&nbsp;themes"
+msgstr "Besøg min Udstillingsmontre med %d&nbsp;WP-temaer"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-showcase-ext.php:1521
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/theme-showcase-ext.php:1523
+msgid "Showcase Widget"
+msgstr "Showcase-Widget"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/title-options.php:5
+msgid "Here you can change the default titles and messages of Showcase ext (see illustration above)."
+msgstr "Her kan du ændre standardtitlerne og -beskederne i Showcase ext (se illustrationen ovenfor)."
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/title-options.php:10
+msgid "Title for name index (Default: Name Index):"
+msgstr "Titel på navneoversigt (standard: Navneoversigt):"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/title-options.php:18
+msgid "Title for thumbnail index (default: Thumbnail Index):"
+msgstr "Titel på Miniatureoversigt (standard: Miniatureoversigt):"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/title-options.php:26
+#, php-format
+msgid "Caption (use '%s', if you want to display the number of themes):"
+msgstr "Tabelbeskrivelse (brug '%s', hvis du ønsker at vise antal temaer):"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/title-options.php:34
+msgid "Instruction to click on the images:"
+msgstr "Instruktion i at klikke på billederne:"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/toc-options.php:1
+msgid "\"Table of Contents\" Options"
+msgstr "Indstillinger for \"Indholdsfortegnelse\""
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/toc-options.php:2
+msgid "You can choose what you want to include in the initial \"Table of Contents\" of the theme showcase. (See the plugin screenshots, if you need to see how it will look.)"
+msgstr "Du kan vælge, hvad du ønsker at medtage i tema-udstillingsmontren. Du kan også vælge, hvor mange kolonner du ønsker i den visuelle indholdsfortegnelse. (Se skærmbillederne, hvis du har brug for at se, hvordan det vil se ud)."
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/toc-options.php:5
+msgid "Show name index"
+msgstr "Vis navneoversigt"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/toc-options.php:8
+msgid "Show thumbnail index"
+msgstr "Vis miniatureoversigt"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/toc-options.php:11
+msgid "Display thumbnail index before name index?"
+msgstr "Vis Miniatureoversigt før Navneoversigt?"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/toc-options.php:15
+msgid "Here you can choose how many columns to show in the thumbnail index, if you have chosen to display it above. Check the checkbox, if you want the plugin to complete the last row (e.g., if you apply a background color to the table). You can define the separator between the theme names in the name index. You can also disable the &lt;div&gt; tags with id showcaseext around the whole output."
+msgstr "Her kan du vælge, hvor mange kolonner du ønsker i Miniatureoversigten, hvis du har valgt at vise den ovenfor. Sæt kryds i afkrydsfeltet, hvis du ønsker, at pluginnet skal færdiggøre sidste række (fx, hvis du anvender en baggrundsfarve i tabellen). Du kan også definere adskilleren mellem temanavnene i Navneoversigten. Endelig kan du deaktivere &lt;div&gt;-taggene med id showcaseext, som sættes omkring hele outputtet."
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/toc-options.php:22
+msgid "Number of columns in the thumbnail index"
+msgstr "Antal kolonner i miniatureoversigten"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/toc-options.php:22
+msgid "Complete last row by adding missing columns?"
+msgstr "Udfyld sidste række med evt. manglende kolonner?"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/toc-options.php:30
+msgid "Enter user-defined separator (optionally)"
+msgstr "Indtast din egen adskiller (valgfri)"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/toc-options.php:34
+msgid "Default is ' &middot; ', i.e. the middle dot surrounded by spaces. If you want the theme names to be listed on separate lines, you may enter &lt;br /&gt; (no spaces) &ndash; or use CSS. If blank, no separator will be used."
+msgstr "Standard er ' &middot; ', dvs. en prik omgivet af mellemrum. Hvis du ønsker temanavnene på hver sin linje, kan du indtaste &lt;br /&gt; (uden mellemrum) &ndash; eller bruge CSS. Hvis den ikke er udfyldt, bruges ingen separator."
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/widget-credits-options.php:1
+msgid "Widget Credits"
+msgstr "Widget-omtale"
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/widget-credits-options.php:3
+msgid "If you think that the widget for WP Theme Showcase ext and i18n is useful for you, you are encouraged to display a small acknowledgement at the end of the widget. Thank you very much. My site is 100% non-commercial, but I appreciate if you display the credit."
+msgstr "Hvis du synes, at WP Theme Showcase ext and i18n's widget kan bruges, er du meget velkommen til at inkludere en lille omtale i bunden af widgetten. Mange tak! Min site er 100 % ikke-kommerciel, men jeg vil være glad, hvis du viser omtalen."
+
+#: c:\wamp\www\wp29\wp-content\plugins\wp-theme-showcase-ext-and-i18n/widget-credits-options.php:7
+msgid "Display small credit at the bottom of the widget?"
+msgstr "Vis lille omtale i bunden af widget?"
+
+#~ msgid "WARNING:"
+#~ msgstr "ADVARSEL:"
+#~ msgid "One or more themes that were marked as hidden have been deleted!"
+#~ msgstr ""
+#~ "Ét eller flere temaer, der er markeret til at blive skjult, er blevet "
+#~ "slettet!"
+#~ msgid "Please, go to Hide themes on the Options page and click Save changes"
+#~ msgstr ""
+#~ "Gå venlist til Skjul temaer på pluginnets side med Indstillinger og klik "
+#~ "på Gem ændringer"
+#~ msgid "For your information"
+#~ msgstr "Til orientering"
+#~ msgid "Content of variable $number_of_themes is: "
+#~ msgstr "Indholdet af variablen $number_of_themes er: "
+#~ msgid "Count of array $themes is: "
+#~ msgstr "Count af arrayet $themes er: "
+#~ msgid "Count of themes marked to be hidden is: "
+#~ msgstr "Count af temaer, der er markeret til at blive skjult, er: "
+#~ msgid ""
+#~ "Content of $hiddenthemes, i.e. how many themes were indeed hidden, is: "
+#~ msgstr ""
+#~ "Indholdet af $hiddenthemes, dvs. hvor mange temaer der faktisk skjultes, "
+#~ "er: "
+#~ msgid "checked"
+#~ msgstr "checked"
+#~ msgid "Reset to the values stored in the database"
+#~ msgstr "Nulstil til indstillingerne, der er gemt i databasen"
+#~ msgid "Display Showcase Widget"
+#~ msgstr "Vis Showcase-Widget"
+#~ msgid "Reactivating Showcase ext"
+#~ msgstr "Reaktivering af Showcase ext"
+#~ msgid "Uninstalling Showcase ext"
+#~ msgstr "Afinstallation af Showcase ext"
+#~ msgid ""
+#~ "You can enable the Showcase Widget, if your theme is widget-ready.*<br/"
+#~ "><br/>Note, however, that certain conditions apply."
+#~ msgstr ""
+#~ "Du kan aktivere Showcase Widget'en, hvis dit tema er widget-klare.*<br/"
+#~ "><br/>Bemærk dog, at der er visse forudsætninger, der skal være på plads."
+#~ msgid ""
+#~ "Thumbnails of a suitable size must exist.<br/>You must also enter a page "
+#~ "id in the Showcase Widget Control. The plugin needs the page (or post) id "
+#~ "in order to generate the code that the widget uses."
+#~ msgstr ""
+#~ "Der skal være miniaturer af en passende størrelse.<br/>Du skal endvidere "
+#~ "indtaste en side-id i Showcase Widget's kontrolpanel. Pluginnet skal "
+#~ "bruge side-id'et (eller et indlægs-id) for at kunne generere den kode, "
+#~ "som widget'en bruger."
+#~ msgid "Display Showcase Widget?"
+#~ msgstr "Vis Showcase-Widget?"
+#~ msgid "Reactivating WP Theme Showcase ext and i18n"
+#~ msgstr "Reaktivering af WP Theme Showcase ext and i18n"
+#~ msgid ""
+#~ "You can reactivate WP Theme Showcase ext and i18n. This is useful, if the "
+#~ "options stored in the database have become invalid (e.g., if you manually "
+#~ "have updated the plugin files to a new version with new options). "
+#~ "Reactivation deletes the options and then creates the default options."
+#~ msgstr "Du kan reaktivere WP Theme Showcase ext "
+#~ msgid ""
+#~ "If you really want to reactivate this plugin and its widget, then you "
+#~ "must select the checkbox below and then press the Reactivate button."
+#~ msgstr ""
+#~ "Hvis du faktisk ønsker at reaktivere pluginnet og dets widget, skal du "
+#~ "krydse af i afkrydsningsboksen nedenfor og derefter trykke på knappen "
+#~ "Reaktivér."
+#~ msgid ""
+#~ "After the reactivation you will have to refresh this page in order see "
+#~ "the default options."
+#~ msgstr ""
+#~ "Efter reaktiveringen er du nødt til at genindlæse denne side, hvis du vil "
+#~ "se standardindstillingerne."
+#~ msgid "Yes, I want to reactivate this plugin"
+#~ msgstr "Ja, jeg ønsker at reaktivere dette plugin"
+#~ msgid "Reactivate"
+#~ msgstr "Reaktivér"
+#~ msgid "Uninstalling WP Theme Showcase ext and i18n"
+#~ msgstr "Afinstallation af WP Theme Showcase extended and i18n"
+#~ msgid ""
+#~ "You can deactivate WP Theme Showcase ext and i18n at any time. This does "
+#~ "<em>not</em> delete its options in the WordPress database."
+#~ msgstr ""
+#~ "Du kan til enhver tid deaktivere WP Theme Showcase ext and i18n. Dette "
+#~ "sletter <em>ikke</em> dets indstillinger i WordPress-databasen."
+#~ msgid ""
+#~ "If you really want to delete the options of this plugin from the "
+#~ "WordPress database, then you must select the checkbox below and then "
+#~ "press the Delete options button."
+#~ msgstr ""
+#~ "Hvis du faktisk ønsker at slette pluginnets indstillinger i WordPress-"
+#~ "databasen, skal du krydse af i afkrydsningsboksen nedenfor og derefter "
+#~ "trykke på knappen Slet indstillinger."
+#~ msgid "Yes, I want to delete the plugin options for good"
+#~ msgstr "Ja, jeg ønsker at slette pluginnets indstillinger"
+#~ msgid "Delete options for good"
+#~ msgstr "Slet indstillingerne helt"
+#~ msgid "Count of hidden themes is: "
+#~ msgstr "Count af de skjulte temaer er: "
+#~ msgid "Options have been deleted!"
+#~ msgstr "Indstillingerne er blevet slettet!"
+#~ msgid ""
+#~ "An error has occurred while trying to delete the options from database!"
+#~ msgstr ""
+#~ "En fejl opstod under forsøget på at slette indstillingerne i databasen!"
+#~ msgid "Update"
+#~ msgstr "Opdatér"
+#~ msgid "Options saved"
+#~ msgstr "Indstillinger gemt"
+#~ msgid "Display full-size images and links to them?"
+#~ msgstr "Vis skærmbilleder i fuld størrelse og links til dem?"
+#~ msgid "Filename of full-size screenshots:"
+#~ msgstr "Filnavn på skærmbilleder i stor størrelse:"
+#~ msgid "Show WordPress Download Monitor download link)"
+#~ msgstr "Vis WordPress Download Monitors download-link"
+#~ msgid "Debug report|for debugging, feel free to ignore"
+#~ msgstr "Debug-rapport"
+#~ msgid " and kindly translated by "
+#~ msgstr " og venligt oversat af "
+#~ msgid "Visit my Theme Showcase"
+#~ msgstr "Besøg min Udstillingsmontre med WP-temaer"
+#~ msgid "Debug report|for debug-report, feel free to ignore"
+#~ msgstr "Debug-rapport"
+#~ msgid "dated|about the date for the debug report"
+#~ msgstr "fra"
+#~ msgid "%d element(s) in total."
+#~ msgstr "I alt %d elementer."
+#~ msgid "Array %s is empty."
+#~ msgstr "Arrayet %s er tomt."
+
+#, fuzzy
+#~ msgid "dated"
+#~ msgstr "Opdatér"
+#~ msgid ""
+#~ "Note however that you should only enable this for testing purpose. Do not "
+#~ "enable the debug function in a production environment. The debug report "
+#~ "makes use of a temporary test file that could perhaps be tampered with."
+#~ msgstr ""
+#~ "Bemærk dog, at du kun bør aktivere dette, når du tester. Aktivér ikke "
+#~ "debug-funktionen, hvor der er offentlig adgang til bloggen. Debug-"
+#~ "rapporten benytter midlertidige test-filer, som der måske kan manipuleres "
+#~ "med."
+#~ msgid "Usage"
+#~ msgstr "Anvendelse af pluginnet"
+#~ msgid "Image size recommentations"
+#~ msgstr "Anbefalede billedstørrelser"
+#~ msgid "Control structures etc"
+#~ msgstr "Kontrolstrukturer m.m."
+#~ msgid ""
+#~ "First column is the descriptive name of the variables. Second column is "
+#~ "(approximately) the value stored in the database. Third column is the "
+#~ "internal plugin representation of the database values. E.g., a variable "
+#~ "is assigned the value true if the database variable is 'on'. True is "
+#~ "represented as the number 1."
+#~ msgstr ""
+#~ "Første kolonne er et beskrivende navn på variablerne. Den anden kolonner "
+#~ "er (omtrent) den værdi, der er gemt i databasen. Tredje kolonner gengiver "
+#~ "den værdi, som pluginnet internt bruger for database-værdierne. F.eks. "
+#~ "kan en variabel være givet værdien sand, hvis database-variablen er "
+#~ "'on' ('til'). Sand gengives med tallet 1."
+#~ msgid "Display name index"
+#~ msgstr "Vis navneoversigt"
+#~ msgid "Display thumbnail index"
+#~ msgstr "Vis miniatureoversigt"
+#~ msgid "Reverse order of indices"
+#~ msgstr "Omvendt rækkefølge af oversigter"
+#~ msgid "Number of columns"
+#~ msgstr "Antal kolonner"
+#~ msgid "Complete last row"
+#~ msgstr "Færdiggør sidste række"
+#~ msgid "User separator"
+#~ msgstr "Bruger-adskiller"
+#~ msgid "Display author"
+#~ msgstr "Vis forfatter"
+#~ msgid "Display description"
+#~ msgstr "Vis beskrivelse"
+#~ msgid "Display tags"
+#~ msgstr "Vis tags"
+#~ msgid "Display readme links"
+#~ msgstr "Vis readme.txt-link"
+#~ msgid "Readme file variables "
+#~ msgstr "Variabler for readme-filer"
+#~ msgid "Additional image"
+#~ msgstr "Ekstra billede"
+#~ msgid ""
+#~ "Show readme.txt link. Please note that not all theme packages include a "
+#~ "readme.txt file. Thus, if choose to show readme.txt links, you must make "
+#~ "sure that a readme.txt file is present for each theme"
+#~ msgstr ""
+#~ "Vis link til readme.txt-fil. Vær opmærksom på, at ikke alle temaer "
+#~ "inkluderer en readme.txt-fil. Hvis du vælger at vise disse links, skal du "
+#~ "sørge for, at hvert tema har en readme.txt-fil."
+#~ msgid "Thumbnail index of %d Danish themes"
+#~ msgstr "Miniatureoversigt over %d danske temaer"
+#~ msgid "Layout"
+#~ msgstr "Layout"
+#~ msgid ""
+#~ "Here you can choose how many columns to show in the thumbnail index, if "
+#~ "you have chosen to display it above."
+#~ msgstr ""
+#~ "Her kan du vælge hvor mange kolonner du ønsker at vise i "
+#~ "miniatureoversigten, hvis du har valgt at vise den ovenfor."
+#~ msgid ""
+#~ "Include &lt;div&gt; tags around the whole output? (Do not include the "
+#~ "&lt>div&gt; tags if they break your theme design)"
+#~ msgstr ""
+#~ "Inkludér &lt;div&gt;-tags omkring hele outputtet? (Inkludér ikke disse "
+#~ "tags, hvis de ødelægger dit temas design)"
+#~ msgid ""
+#~ "In order not to overwrite these screenshots, this plugin uses screenshot."
+#~ "jpg for the largest screenshot (which, by the way, should be smaller than "
+#~ "the available screen size), screenshot-mini.jpg for the medium size (e."
+#~ "g., 300x300px) thumbnails that are displayed in the showcase, and "
+#~ "screenshot-miniest.jpg for the tiniest (preferably 100x100px) thumbnails "
+#~ "that are shown in the thumbnail index."
+#~ msgstr ""
+#~ "For ikke at overskrive disse skærmbilleder bruger dette plugin screenshot."
+#~ "jpg for de største skærmbilleder (som i øvrigt bør være mindre end den "
+#~ "skærmstørrelse, der er til rådighed), screenshot-mini.jpg for "
+#~ "miniaturerne i mellemstørrelse (fx 300x300px) som vises i "
+#~ "udstillingsmontren og screenshot-miniest.jpg for de mindste miniaturer "
+#~ "(100x100px anbefales), som vises i miniature-oversigten."
+#~ msgid "Filename of 300x300px screenshots:"
+#~ msgstr "Filnavn på 300x300 pixels skærmbilleder:"
+#~ msgid "Show textual TOC"
+#~ msgstr "Vis temaoversigt"
+#~ msgid "Show visual TOC"
+#~ msgstr "Vis billedoversigt"
+#~ msgid ""
+#~ "You can choose what information you want to display for each theme in "
+#~ "addition to the thumbnails and a test-run link"
+#~ msgstr ""
+#~ "Du kan vælge hvilke informationer du ønsker at vise for hvert tema i "
+#~ "tillæg til miniaturen og et link til at prøvekøre temaet"
+#~ msgid ""
+#~ "In order not to overwrite these screenshots, this plugin uses screenshot."
+#~ "jpg for the largest screenshot (which, by the way, should be smaller than "
+#~ "the available screen size), screenshot-mini.jpg for the 300x300px "
+#~ "thumbnails that are displayed in the showcase, and screenshot-miniest.jpg "
+#~ "for the 100x100px thumbnails that are shown in the visual Table of "
+#~ "Content."
+#~ msgstr ""
+#~ "For ikke at overskrive disse skærmbilleder bruger dette plugin screenshot."
+#~ "jpg for skærmbillederne i stor størrelse (som i øvrigt bør være mindre "
+#~ "end den skærmstørrelse, der er til rådighed), screenshot-mini.jpg for "
+#~ "300x300 pixels miniaturerne som vises i udstillingsmontren og screenshot-"
+#~ "miniest.jpg for de 100x100 pixels miniaturer, som vises i den visuelle "
+#~ "indholdsfortegnelse."
+#~ msgid ""
+#~ "Here you can chose who many columns to show in the Visual TOC, if you "
+#~ "have chosen to display it above."
+#~ msgstr ""
+#~ "Her kan du vælge hvor mange kolonner du ønsker at vise i den visuelle "
+#~ "indholdsfortegnelse, hvis du har valgt at vise den ovenfor."
+#~ msgid ""
+#~ "You can deactivate WP Theme Showcase ext and i18n at any time. This does "
+#~ "<em>not</em> delete its options in the WordPress database"
+#~ msgstr ""
+#~ "Du kan til enhver tid deaktivere WP Theme Showcase ext and i18n. Dette "
+#~ "sletter <em>ikke</em> dets indstillinger i WordPress-databasen."
+#~ msgid ""
+#~ "&nbsp;&middot; |You can change the separator between the names of the "
+#~ "themes in the textual TOC"
+#~ msgstr "&nbsp;&middot; "
+#~ msgid "Visual Table of Contents"
+#~ msgstr "Visuel temaoversigt"
+#~ msgid "Illustrated overview of %d Danish themes"
+#~ msgstr "Illustreret oversigt over %d danske temaer"
+#~ msgid "Image index of %d Danish themes"
+#~ msgstr "Billedoversigt over %d danske temaer"
+#~ msgid ""
+#~ "Create a new page &ndash; or use an existing one &ndash; and insert the "
+#~ "code <strong>[showcaseext]</strong> into the page."
+#~ msgstr ""
+#~ "Opret en ny side &ndash; eller brug en eksisterende. Indsæt kortkoden "
+#~ "<strong>[showcaseext]</strong> på siden."
+#~ msgid ""
+#~ "Here you can chose who many columns to show in the Visual TOC, if you "
+#~ "have chosen to display it abeove."
+#~ msgstr ""
+#~ "Her kan du vælge, hvor mange kolonner du ønsker i den visuelle "
+#~ "indholdsfortegnelse, hvis du har valgt at vise den ovenfor."
+#~ msgid "Name Index of the Showcased Themes"
+#~ msgstr "Navneoversigt"
+#~ msgid "Filename of 300x300px screenshots"
+#~ msgstr "Filnavn på 300x300px skærmbilleder"
+#~ msgid "Filename of 100x100px screenshots:"
+#~ msgstr "Filnavn på 100x100 pixels skærmbilleder (miniaturer):"
+#~ msgid "Graphical Table of Contents"
+#~ msgstr "Illustreret temaoversigt"
+#~ msgid "Illustrated overview of Danish themes"
+#~ msgstr "Illustreret oversigt over danske temaer"
+#~ msgid "or to"
+#~ msgstr "eller til"
+#~ msgid ""
+#~ " |if you need words before the total number of themes, enter them here"
+#~ msgstr "I alt "
+#~ msgid ""
+#~ " themes in total.|if you need - more - words after the total number of "
+#~ "themes, enter them here"
+#~ msgstr " temaer"
+#~ msgid "I am finished with this project, for ever"
+#~ msgstr "I am finished with this project, for ever"
+
